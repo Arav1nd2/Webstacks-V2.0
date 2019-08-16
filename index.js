@@ -21,6 +21,8 @@ const mongoose = require('mongoose');
     app.use(cookieParser());
     app.use(bodyParser.urlencoded({ extended: true }));
     app.get('/', (req,res) => {
+        // Load the React app here
+        
         res.status(400).json({
             code: 400,
             message: `You have hit the wrong URL `
