@@ -1,0 +1,53 @@
+.task__title {
+     text-align: center;
+}
+
+.task__title h4 {
+     color: rgb(255, 136, 0);
+     font-weight: bold;
+}
+
+.task__list {
+     text-align: center;
+     padding: 0 70px;
+}
+
+.task__default-image {
+     width: 50%;
+     display: block;
+     margin: 0 auto;
+}
+
+.task__loader {
+     display: block;
+     margin: auto;
+}
+.task__title-line {
+     width: 70vw;
+     height: 40px;
+     background-color: #ededed;
+     border-radius: 200px;
+     animation: load 2s ease-in-out infinite;
+     margin: 5px auto;
+}
+
+.task__content-lines {
+     height: 20px;
+     background-color: #ededed;
+     width: 60px;
+     margin: 5px auto;
+     animation: load 2s ease-in-out infinite;
+     
+}
+
+@keyframes load {
+     0% {
+          opacity: 0.4;
+     }
+     50% {
+          opacity: 1;
+     }
+     100% {
+          opacity: 0.4;
+     }
+}
